@@ -4,5 +4,5 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  board[index] ? board[index].strip == "" : false
+  board[index] ? board[index].strip != "" : false
 end
